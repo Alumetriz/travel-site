@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* common styles */
+
+.wrapper {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* common styles */
+
+/*header*/
+.header-and-hero__background {
+    background-image: url("/assets/images/bgtravel.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-list {
+    display: flex;
+    gap: 30px;
+}
+.header-list li a {
+    color: white;
+    font-weight: 500;
+    transition: all .3s;
+}
+.header-list li a:hover {
+    color: orange;
+}
+.logo svg {
+    cursor: pointer;
+    fill: white;
+    transition: all .3s;
+}
+.logo svg:hover {
+
+    fill: orange;
+}
+
+.login-btn {
+    cursor: pointer;
+    background: orangered;
+    border: none;
+    width: 120px;
+    height: 40px;
+
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+
+    transition: all .3s;
+}
+.login-btn:hover {
+    background: #fd7741;
+}
+/*header*/
+
