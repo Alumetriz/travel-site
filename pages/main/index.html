@@ -16,6 +16,7 @@
     <!--Styles-->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="../../modules/styles/header.css">
+    <link rel="stylesheet" href="../../modules/styles/footer.css">
     <!--Styles-->
 </head>
 <body>
@@ -58,7 +59,7 @@
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Tours</a></li>
                         <li><a href="#">Destinations</a></li>
-                        <li><a href="#">Pages</a></li>
+                        <li><a href="#">Site map</a></li>
                         <li><a href="#">Contact us</a></li>
                     </ul>
                 </nav>
@@ -107,12 +108,14 @@
         </div>
     </section>
 
-    <section class="destinations-section">
+    <section class="destinations-section" id="destinations-section">
         <div class="destination-overlay"></div>
         <div class="wrapper">
             <div class="destinations__wrapper">
                 <h3 class="destinations-title">Popular Destinations</h3>
-                <a class="destinations-link" href="#">View All Destinations</a>
+                <p class="destinations-link">
+                    <a href="#">View All Destinations</a>
+                </p>
 
                 <ol class="destination-list">
                     <li class="dest-list__item">
@@ -163,7 +166,151 @@
             </div>
         </div>
     </section>
+
+    <section class="popular-tours__section" id="popular-tours__section">
+        <div class="wrapper">
+            <div class="popular-tours__wrapper">
+                <h3 class="title popular-tours__title">Popular Tours</h3>
+                <p class="popular-tours__link">
+                    <a href="#">View All Popular Tours</a>
+                </p>
+
+                <div class="popular-tours__list">
+                    <div class="tour">
+                        <img src="../../source/images/pictures/grand-canyon.jpg" alt="Grand-canyon">
+                        <div class="tour-inner">
+                            <h5 class="tour-inner__title">America – Grand canyon, Golden Gate</h5>
+                            <span class="tour-inner__tags">Adventure, Historic</span>
+                        </div>
+                    </div>
+                    <div class="tour">
+                        <img src="../../source/images/pictures/vince.png" alt="Vince">
+                        <div class="tour-inner">
+                            <h5 class="tour-inner__title">Vince, Rome and Milan</h5>
+                            <span class="tour-inner__tags">Family Holidays, Historic</span>
+                        </div>
+                    </div>
+                    <div class="tour">
+                        <img src="../../source/images/pictures/budapest.jpg" alt="Budapest">
+                        <div class="tour-inner">
+                            <h5 class="tour-inner__title">Visit Beautiful Budapest</h5>
+                            <span class="tour-inner__tags">Adventure, Budget Travels</span>
+                        </div>
+                    </div>
+                    <div class="tour">
+                        <img src="../../source/images/pictures/rome.jpg" alt="Rome">
+                        <div class="tour-inner">
+                            <h5 class="tour-inner__title">Trip to Ancient Rome</h5>
+                            <span class="tour-inner__tags">Historic</span>
+                        </div>
+                    </div>
+                    <div class="tour">
+                        <img src="../../source/images/pictures/london.jpg" alt="London">
+                        <div class="tour-inner">
+                            <h5 class="tour-inner__title">A weekend in London</h5>
+                            <span class="tour-inner__tags">City Tour, Family Holidays</span>
+                        </div>
+                    </div>
+                    <div class="tour">
+                        <img src="../../source/images/pictures/dublin.jpg" alt="Dublin">
+                        <div class="tour-inner">
+                            <h5 class="tour-inner__title">Dublin – All Stunning Places</h5>
+                            <span class="tour-inner__tags">Budget Travels, City Tour</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="travel-articles__section" id="travel-articles__section">
+        <div class="wrapper">
+            <div class="travel-articles__wrapper">
+                <h3 class="title travel-articles__title">Travel Articles</h3>
+                <p class="travel-articles__link">
+                    <a href="#">Read The Blog</a>
+                </p>
+            </div>
+
+            <div class="blogs">
+                <div class="post">
+                    <img class="post-img" src="../../source/images/pictures/paper-map.jpg" alt="Paper-map">
+                    <div class="post-inner">
+                        <h5 class="post-title">
+                            <a href="#">How To Travel With Paper Map</a>
+                        </h5>
+                        <span class="tag">
+                            Tours
+                        </span>
+                    </div>
+                </div>
+                <div class="post">
+                    <img class="post-img" src="../../source/images/pictures/pack-wisely.jpg" alt="Pack-wisely">
+                    <div class="post-inner">
+                        <h5 class="post-title">
+                            <a href="#">Pack Wisely Before Traveling</a>
+                        </h5>
+                        <span class="tag">
+                            Tours
+                        </span>
+                    </div>
+                </div>
+                <div class="post">
+                    <img class="post-img" src="../../source/images/pictures/surfing.jpeg" alt="Surfing">
+                    <div class="post-inner">
+                        <h5 class="post-title">
+                            <a href="#">The Surfing Man Will Blow Your Mind</a>
+                        </h5>
+                        <span class="tag">
+                            Blog
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="start-new-tour__section" id="start-new-tour__section">
+        <div class="wrapper">
+            <div class="start-new-tour__wrapper">
+                <h3 class="title start-new-tour__title">WE WOULD LOVE TO HEAR ABOUT START YOUR NEW TOUR?</h3>
+                <a href="#" class="start-new-tour__btn">
+                    <button>Start new tour</button>
+                </a>
+            </div>
+        </div>
+    </section>
 </main>
+
+<footer class="footer">
+    <div class="wrapper">
+        <div class="footer__wrapper">
+            <div class="first-column">
+                <h2 class="footer-title">AbroadTour</h2>
+                <p>Mon - Fri: 9:00 - 19:00 Closed on Weekends</p>
+                <p>@ Дар`я Шевцова ІПЗ-22-1</p>
+            </div>
+            <div class="second-column">
+                <span class="column-title">Useful Links</span>
+                <ul class="useful-links__list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Tours</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Site map</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="third-column">
+                <span class="column-title">Contact us</span>
+                <ul class="contacts__list">
+                    <li><p><b>Address:</b> Kryvyi Rih</p></li>
+                    <li><p><b>Phone:</b> +38011111111</p></li>
+                    <li><p>talktous@example.com</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
 
 </body>
 </html>
