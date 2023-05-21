@@ -20,6 +20,14 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
+
+.header-and-hero__background {
+    background-image: url("../../../source/images/bgtravel.jpg");
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
 /* common styles */
 
 /*hero*/
