@@ -1,6 +1,10 @@
 /*header*/
+/*
+../../source/images/bgtravel.jpg - if modules
+../../../source/images/bgtravel.jpg - if absolute
+*/
 .header-and-hero__background {
-    background-image: url("/assets/images/bgtravel.jpg");
+    background-image: url("../../source/images/bgtravel.jpg");
     width: 100%;
     min-height: 100vh;
     background-size: cover;
@@ -13,6 +17,7 @@
 }
 .header-list {
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
 }
 .header-list li a {
