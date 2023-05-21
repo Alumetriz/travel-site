@@ -15,12 +15,164 @@ body {
 }
 
 /* common styles */
-
 .wrapper {
     max-width: 1260px;
     margin: 0 auto;
     padding: 0 20px;
 }
-
 /* common styles */
 
+/*hero*/
+.hero__wrapper {
+    text-align: center;
+    margin-top: 30%;
+}
+
+.pre-title__hero {
+    font-weight: 400;
+    font-size: 17px;
+    color: white;
+}
+.title__hero {
+    color: white;
+    font-size: 55px;
+}
+.btn-discover {
+    margin: 40px 0 0 0;
+    cursor: pointer;
+    background: white;
+    border: none;
+    width: 160px;
+    height: 60px;
+
+    color: orangered;
+    font-size: 17px;
+    font-weight: 500;
+
+    transition: all .3s;
+}
+.btn-discover:hover {
+    background: #fd7741;
+    color: white;
+}
+/*hero*/
+
+/*elements-section*/
+.elements-section {
+    padding: 60px 0;
+}
+.elements__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.elements-title {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+
+    margin: 15px 0 0 0;
+}
+/*elements-section*/
+
+
+/*destinations-section*/
+.destinations-section {
+    background: url("../../../source/images/bg-slider.jpg") center no-repeat;
+    background-size: 100%;
+
+    position: relative;
+}
+.destination-overlay {   /*тень для фона*/
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.5;
+    z-index: 1;
+}
+.destinations__wrapper {
+    position: relative;
+    padding: 60px 0;
+    z-index: 2;
+}
+
+.destinations-title {
+    font-size: 45px;
+    font-weight: 500;
+    color: white;
+}
+.destinations-link {
+    font-family: 'Poppins', sans-serif;
+    color: orangered;
+    font-size: 17px;
+
+    display: block;
+    margin: 0 0 35px 0;
+}
+
+.destination-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.dest-outer {
+    width: 270px;
+    height: 370px;
+    overflow: hidden;
+
+    position: relative;
+}
+.dest-outer img {
+    width: 100%;
+    height: 100%;
+    object-fit: none; /* Изображение не будет изменять свои размеры */
+}
+
+.dest-outer::after {
+    content: "";
+    position: absolute;
+    bottom: -10px; /* Положение тени */
+    left: 0;       /* Положение тени */
+    width: 100%;
+    height: 50%; /*высота тени */
+    z-index: 1;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%); /*тень задана с помощью градиента*/
+
+}
+
+.dest-inner {
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px 20px;
+    align-items: center;
+    z-index: 2;
+}
+.dest-inner h5,
+.dest-inner span {
+    color: white;
+    transition: color .3s;
+}
+.dest-inner h5 {
+    font-size: 20px;
+}
+.dest-inner__title {
+    font-size: 17px;
+}
+.dest-list__item {
+    cursor: pointer;
+}
+.dest-list__item:hover .dest-inner h5 {
+    color: #fd7741;
+}
+.dest-list__item:hover .dest-inner span {
+    color: orangered;
+}
+/*destinations-section*/

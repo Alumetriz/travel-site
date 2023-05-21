@@ -1,8 +1,10 @@
 /*header*/
+
 /*
 ../../source/images/bgtravel.jpg - if modules
 ../../../source/images/bgtravel.jpg - if absolute
 */
+
 .header-and-hero__background {
     background-image: url("../../source/images/bgtravel.jpg");
     width: 100%;
