@@ -1,0 +1,230 @@
+/** {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    box-sizing: border-box;*/
+/*}*/
+/*ul, ol {*/
+/*    list-style: none;*/
+/*}*/
+
+/*a {*/
+/*    text-decoration: none;*/
+/*}*/
+/*body {*/
+/*    font-family: "Roboto", sans-serif;*/
+/*}*/
+
+/*!* common styles *!*/
+/*.wrapper {*/
+/*    max-width: 1260px;*/
+/*    margin: 0 auto;*/
+/*    padding: 0 20px;*/
+/*}*/
+
+/*.header-and-hero__background {*/
+/*    background-image: url("../../../source/images/login-bg.jpg");*/
+/*    width: 100%;*/
+/*    min-height: 50vh;*/
+/*    background-size: cover;*/
+/*    background-position: center;*/
+
+/*    position: relative;*/
+/*}*/
+/*.header-and-hero__background-overlay {*/
+/*    background-color: #000;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    position: absolute;*/
+/*    opacity: 0.5;*/
+/*    z-index: 1;*/
+/*}*/
+/*.header__wrapper,*/
+/*.hero__wrapper {*/
+/*    position: relative;*/
+/*    z-index: 2;*/
+/*}*/
+/*!* common styles *!*/
+
+/*!*hero*!*/
+/*.hero__wrapper {*/
+/*    text-align: center;*/
+/*    margin-top: 10%;*/
+/*}*/
+/*.title__hero {*/
+/*    color: white;*/
+/*    font-size: 55px;*/
+/*}*/
+/*!*hero*!*/
+
+
+/*!*login*!*/
+/*.login-section {*/
+/*    padding: 60px 0;*/
+/*}*/
+/*.login__wrapper {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*}*/
+/*.login-form {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 15px;*/
+/*}*/
+/*.buttons__wrapper {*/
+/*    display: flex;*/
+/*    gap: 50px;*/
+/*}*/
+/*.form-btn {*/
+/*    width: 200px;*/
+/*    height: 50px;*/
+/*    border: none;*/
+/*    background-color: orangered;*/
+/*    cursor: pointer;*/
+
+/*    color: white;*/
+/*    font-size: 20px;*/
+/*}*/
+
+
+/*input[type="text"],*/
+/*input[type="date"],*/
+/*input[type="email"],*/
+/*input[type="password"],*/
+/*input[type="number"],*/
+/*textarea {*/
+/*    width: 100%;*/
+/*    padding: 15px;*/
+/*    margin-bottom: 10px;*/
+/*    background-color: #0c3555;*/
+/*    color: white;*/
+/*    border: none;*/
+/*}*/
+/*input[type="text"]::placeholder,*/
+/*input[type="number"]::placeholder {*/
+/*    color: grey;*/
+/*}*/
+
+/*.question {*/
+/*    display: flex;*/
+/*    gap: 15px;*/
+/*    margin: 25px 0 0 0;*/
+/*}*/
+/*!*login*!*/
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* common styles */
+.wrapper {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-and-hero__background {
+    background-image: url("../../../source/images/login-bg.jpg");
+    width: 100%;
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+}
+.header-and-hero__background-overlay {
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.5;
+    z-index: 1;
+}
+.header__wrapper,
+.hero__wrapper {
+    position: relative;
+    z-index: 2;
+}
+/* common styles */
+
+/*hero*/
+.hero__wrapper {
+    text-align: center;
+    margin-top: 10%;
+}
+.title__hero {
+    color: white;
+    font-size: 55px;
+}
+/*hero*/
+
+
+/*login*/
+.login-section {
+    padding: 60px 0;
+}
+.login__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.buttons__wrapper {
+    display: flex;
+    gap: 50px;
+}
+.form-btn {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: orangered;
+    cursor: pointer;
+
+    color: white;
+    font-size: 20px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #0c3555;
+    color: white;
+    border: none;
+}
+input[type="text"]::placeholder,
+input[type="number"]::placeholder {
+    color: grey;
+}
+
+.question {
+    display: flex;
+    gap: 15px;
+    margin: 25px 0 0 0;
+}
+/*login*/

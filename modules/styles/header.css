@@ -44,4 +44,8 @@
 .login-btn:hover {
     background: #fd7741;
 }
+
+.header-list li a.active {
+    color: #fd7741;
+}
 /*header*/
