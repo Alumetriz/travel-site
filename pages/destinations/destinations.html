@@ -21,6 +21,7 @@
 </head>
 <body>
 <div class="header-and-hero__background">
+    <div class="header-and-hero__background-overlay"></div>
     <header class="header">
         <div class="wrapper">
             <div class="header__wrapper">
@@ -57,8 +58,8 @@
                     <ul class="header-list">
                         <li><a href="../main/index.html">Home</a></li>
                         <li><a href="../tours/tours.html">Tours</a></li>
-                        <li><a class="active" href="../find/find.html">Find place</a></li>
-                        <li><a href="../destinations/destinations.html">Destinations</a></li>
+                        <li><a href="../find/find.html">Find place</a></li>
+                        <li><a class="active" href="#">Destinations</a></li>
                         <li><a href="../about/about.html">About us</a></li>
                         <li><a href="../contact/contact.html">Contact us</a></li>
                     </ul>
@@ -75,93 +76,63 @@
     <div class="hero">
         <div class="wrapper">
             <div class="hero__wrapper">
-                <h1 class="title__hero">FIND NEXT PLACE TO VISIT</h1>
-                <h4 class="pre-title__hero">Discover amazing places at exclusive deals</h4>
-
-                <div class="container">
-                    <form>
-                        <div>
-                            <label class="label-title" for="keywords">
-                                Keywords:
-                            </label>
-                            <input type="text" id="keywords" name="keywords" placeholder="Enter a destination or tour name">
-                        </div>
-
-                        <div>
-                            <label class="label-title" for="when">
-                                When:
-                            </label>
-                            <input type="date" id="when" name="when" placeholder="Select date">
-                        </div>
-
-                        <div>
-                            <label class="label-title" for="guests">
-                                Guests:
-                            </label>
-                            <input type="number" id="guests" name="guests" placeholder="Enter number of guests">
-                        </div>
-
-                        <input type="submit" value="Search">
-                    </form>
-                </div>
+                <h1 class="title__hero">Destinations</h1>
             </div>
         </div>
     </div>
 </div>
 
 <main>
-    <section class="popular-tours__section" id="popular-tours__section">
+    <section class="destinations-section" id="destinations-section">
+        <div class="destination-overlay"></div>
         <div class="wrapper">
-            <div class="popular-tours__wrapper">
-                <h3 class="title popular-tours__title">Popular Tours</h3>
-                <p class="popular-tours__link">
-                    <a href="#">View All Popular Tours</a>
-                </p>
-
-                <div class="popular-tours__list">
-                    <div class="tour">
-                        <img src="../../source/images/pictures/grand-canyon.jpg" alt="Grand-canyon">
-                        <div class="tour-inner">
-                            <h5 class="tour-inner__title">America – Grand canyon, Golden Gate</h5>
-                            <span class="tour-inner__tags">Adventure, Historic</span>
-                        </div>
-                    </div>
-                    <div class="tour">
-                        <img src="../../source/images/pictures/vince.png" alt="Vince">
-                        <div class="tour-inner">
-                            <h5 class="tour-inner__title">Vince, Rome and Milan</h5>
-                            <span class="tour-inner__tags">Family Holidays, Historic</span>
-                        </div>
-                    </div>
-                    <div class="tour">
-                        <img src="../../source/images/pictures/budapest.jpg" alt="Budapest">
-                        <div class="tour-inner">
-                            <h5 class="tour-inner__title">Visit Beautiful Budapest</h5>
-                            <span class="tour-inner__tags">Adventure, Budget Travels</span>
-                        </div>
-                    </div>
-                    <div class="tour">
-                        <img src="../../source/images/pictures/rome.jpg" alt="Rome">
-                        <div class="tour-inner">
-                            <h5 class="tour-inner__title">Trip to Ancient Rome</h5>
-                            <span class="tour-inner__tags">Historic</span>
-                        </div>
-                    </div>
-                    <div class="tour">
-                        <img src="../../source/images/pictures/london.jpg" alt="London">
-                        <div class="tour-inner">
-                            <h5 class="tour-inner__title">A weekend in London</h5>
-                            <span class="tour-inner__tags">City Tour, Family Holidays</span>
-                        </div>
-                    </div>
-                    <div class="tour">
-                        <img src="../../source/images/pictures/dublin.jpg" alt="Dublin">
-                        <div class="tour-inner">
-                            <h5 class="tour-inner__title">Dublin – All Stunning Places</h5>
-                            <span class="tour-inner__tags">Budget Travels, City Tour</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="destinations__wrapper">
+                <ol class="destination-list">
+                    <li class="dest-list__item">
+                        <a href="../tours/tours.html">
+                            <div class="dest-outer">
+                                <img src="../../source/images/pictures/south%20america.jpg" alt="SouthAmericaImg">
+                                <div class="dest-inner">
+                                    <h5 class="dest-inner__title">South America</h5>
+                                    <span class="dest-inner__tours">2 Tours</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="dest-list__item">
+                        <a href="../tours/tours.html">
+                            <div class="dest-outer">
+                                <img src="../../source/images/pictures/europe.jpg" alt="EuropeImg">
+                                <div class="dest-inner">
+                                    <h5 class="dest-inner__title">Europe</h5>
+                                    <span class="dest-inner__tours">5 Tours</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="dest-list__item">
+                        <a href="../tours/tours.html">
+                            <div class="dest-outer">
+                                <img src="../../source/images/pictures/asia.jpg" alt="AsiaImg">
+                                <div class="dest-inner">
+                                    <h5 class="dest-inner__title">Asia</h5>
+                                    <span class="dest-inner__tours">5 Tours</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="dest-list__item">
+                        <a href="../tours/tours.html">
+                            <div class="dest-outer">
+                                <img src="../../source/images/pictures/america.jpg" alt="AmericaImg">
+                                <div class="dest-inner">
+                                    <h5 class="dest-inner__title">America</h5>
+                                    <span class="dest-inner__tours">2 Tours</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                </ol>
             </div>
         </div>
     </section>
@@ -180,7 +151,7 @@
                 <ul class="useful-links__list">
                     <li><a href="../main/index.html">Home</a></li>
                     <li><a href="../tours/tours.html">Tours</a></li>
-                    <li><a href="../destinations/destinations.html">Destinations</a></li>
+                    <li><a href="#">Destinations</a></li>
                     <li><a href="../about/about.html">About us</a></li>
                     <li><a href="../contact/contact.html">Contact us</a></li>
                     <li><a href="#">Site map</a></li>

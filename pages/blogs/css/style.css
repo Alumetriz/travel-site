@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* common styles */
+.wrapper {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-and-hero__background {
+    background-image: url("../../../source/images/login-bg.jpg");
+    width: 100%;
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+}
+.header-and-hero__background-overlay {
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.5;
+    z-index: 1;
+}
+.header__wrapper,
+.hero__wrapper {
+    position: relative;
+    z-index: 2;
+}
+/* common styles */
+
+/*hero*/
+.hero__wrapper {
+    text-align: center;
+    margin-top: 10%;
+}
+.title__hero {
+    color: white;
+    font-size: 55px;
+}
+/*hero*/
+
+
+/*blogs*/
+
+.blogs-section {
+    padding: 60px 0;
+}
+
+.blogs__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog-content {
+    text-align: center;
+    margin: 25px 0;
+}
+.blog-title {
+    font-size: 25px;
+    margin: 0 0 25px 0;
+    transition: color .3s;
+    cursor: pointer;
+}
+.blog-title:hover {
+    color: #fd7741;
+}
+.blog-text {
+    color: #7A7A7A;
+}
+/*blogs*/
