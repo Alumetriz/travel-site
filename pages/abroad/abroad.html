@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Welcome to our travel agency! We offer a wide range of travel worldwide. Discover unique tours, hot deals and personalized service.">
+    <meta name="keywords" content="travel agency, travel, tours, vacations, excursions, vacations, trips, sea vacations, hot tours, customized tours">
+
+
+    <title>AbroadTour</title>
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap"
+          rel="stylesheet">
+    <!--FONTS-->
+
+    <!--Styles-->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../../modules/styles/header.css">
+    <link rel="stylesheet" href="../../modules/styles/footer.css">
+    <!--Styles-->
+</head>
+<body>
+<div class="header-and-hero__background">
+    <div class="header-and-hero__background-overlay"></div>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__wrapper">
+                <a href="../main/index.html" class="logo">
+                    <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                         width="60px" height="60px" viewBox="0 0 1280.000000 724.000000"
+                         preserveAspectRatio="xMidYMid meet">
+                        <g transform="translate(0.000000,724.000000) scale(0.100000,-0.100000)"
+                           stroke="none">
+                            <path d="M1200 7229 c-30 -4 -74 -15 -97 -23 -39 -14 -364 -251 -362 -265 0
+                            -3 776 -493 1723 -1089 l1724 -1083 367 -375 c202 -206 366 -376 364 -378 -2
+                            -2 -236 -47 -519 -101 -283 -53 -631 -119 -773 -146 -143 -27 -264 -49 -271
+                            -49 -7 0 -222 226 -479 502 -285 307 -491 520 -528 547 -75 54 -216 128 -262
+                            136 -35 7 -336 -40 -348 -53 -3 -4 14 -225 37 -492 24 -267 42 -492 41 -501
+                            -2 -18 3 -20 -832 376 -264 125 -507 236 -540 247 -135 44 -332 14 -407 -62
+                            -21 -21 -38 -46 -38 -57 0 -12 223 -228 641 -619 352 -329 655 -611 672 -626
+                            l32 -27 -39 -32 c-50 -42 -76 -99 -76 -171 0 -51 3 -59 30 -82 51 -42 195 -77
+                            365 -88 l40 -3 312 -415 c171 -228 322 -423 334 -432 32 -27 161 -25 235 3
+                            108 40 105 34 185 379 39 168 72 306 73 308 2 1 99 -5 217 -13 353 -24 765
+                            -35 1319 -35 687 0 980 12 1503 61 120 11 229 19 243 17 18 -2 155 -117 415
+                            -348 l388 -345 1 -947 c0 -522 2 -948 4 -948 2 0 104 9 226 20 241 22 298 36
+                            375 91 25 18 63 58 83 89 44 66 13 -1 730 1565 504 1100 581 1261 602 1267 14
+                            4 84 14 155 23 300 38 858 140 1295 236 1377 305 2214 666 2396 1033 36 74 39
+                            86 39 166 0 76 -3 92 -33 152 -62 126 -162 183 -482 277 -269 79 -291 87 -466
+                            170 -175 83 -233 98 -429 111 -294 20 -523 -21 -865 -155 -74 -29 -144 -55
+                            -155 -59 -11 -4 -114 -25 -230 -47 -115 -22 -363 -69 -550 -104 -1056 -199
+                            -1355 -255 -1373 -255 -11 0 -316 115 -678 256 -2365 919 -4352 1691 -5713
+                            2220 -505 196 -492 193 -621 173z"/>
+                        </g>
+                    </svg>
+                </a>
+
+                <nav class="nav">
+                    <ul class="header-list">
+                        <li><a href="../main/index.html">Home</a></li>
+                        <li><a class="active" href="#">Tours</a></li>
+                        <li><a href="../find/find.html">Find place</a></li>
+                        <li><a href="../destinations/destinations.html">Destinations</a></li>
+                        <li><a href="../about/about.html">About us</a></li>
+                        <li><a href="../contact/contact.html">Contact us</a></li>
+                    </ul>
+                </nav>
+
+                <a href="../login/login.html">
+                    <button class="btn login-btn">
+                        Login
+                    </button>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="hero">
+        <div class="wrapper">
+            <div class="hero__wrapper">
+                <h1 class="title__hero">Go on a trip</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<main>
+    <section class="abroad-section" id="abroad-section">
+        <div class="wrapper">
+            <div class="abroad__wrapper">
+                <form class="order-form" action="#" method="get">
+                    <label for="destination">Destination:</label>
+                    <input type="text" id="destination" name="destination" required>
+
+                    <label for="num_people">Number of people:</label>
+                    <input type="number" id="num_people" name="num_people" min="1" required>
+
+                    <label for="duration">Duration (in days):</label>
+                    <input type="number" id="duration" name="duration" min="1" required>
+
+                    <label for="departure_date">Departure date:</label>
+                    <input type="date" id="departure_date" name="departure_date" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="additional_info">Additional Information:</label>
+                    <textarea id="additional_info" name="additional_info" rows="4" cols="50"></textarea>
+
+                    <input type="submit" class="send-btn" value="Take a trip">
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="wrapper">
+        <div class="footer__wrapper">
+            <div class="first-column">
+                <h2 class="footer-title">AbroadTour</h2>
+                <p>Mon - Fri: 9:00 - 19:00 Closed on Weekends</p>
+                <p>@ Дар`я Шевцова ІПЗ-22-1 <a href="../resume/resume.html" target="_blank">CV</a></p>
+            </div>
+            <div class="second-column">
+                <span class="column-title">Useful Links</span>
+                <ul class="useful-links__list">
+                    <li><a href="../main/index.html">Home</a></li>
+                    <li><a href="../tours/tours.html">Tours</a></li>
+                    <li><a href="../destinations/destinations.html">Destinations</a></li>
+                    <li><a href="../about/about.html">About us</a></li>
+                    <li><a href="../contact/contact.html">Contact us</a></li>
+                    <li><a href="../sitemap/sitemap.html">Site map</a></li>
+                </ul>
+            </div>
+            <div class="third-column">
+                <span class="column-title">Contact us</span>
+                <ul class="contacts__list">
+                    <li><p><b>Address:</b> Kryvyi Rih</p></li>
+                    <li><p><b>Phone:</b> +38011111111</p></li>
+                    <li><p>talktous@example.com</p></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

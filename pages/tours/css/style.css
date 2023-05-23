@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* common styles */
+.wrapper {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-and-hero__background {
+    background-image: url("../../../source/images/login-bg.jpg");
+    width: 100%;
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+}
+.header-and-hero__background-overlay {
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.5;
+    z-index: 1;
+}
+.header__wrapper,
+.hero__wrapper {
+    position: relative;
+    z-index: 2;
+}
+/* common styles */
+
+/*hero*/
+.hero__wrapper {
+    text-align: center;
+    margin-top: 10%;
+}
+.title__hero {
+    color: white;
+    font-size: 55px;
+}
+/*hero*/
+
+/*tours*/
+
+.tours__section {
+    padding: 60px 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 35px;
+    color: #0c3555;
+}
+.tours__link {
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+.tours__link a {
+    color: #fd7741;
+}
+.tours__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.tour {
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.07);
+    /*добавляет тень смещением на 3 пикселя вниз,
+     радиусом размытия 7 пикселей и прозрачностью 0.07, к элементу.*/
+    transition: all .3s;
+
+    max-width: 390px;
+}
+.tour:hover {
+    box-shadow: 0px 6px 14px 0px rgba(0, 0, 0, 0.3);
+}
+.tour img {
+    object-fit: cover;
+    height: 240px;
+    width: 100%;
+}
+.tour-inner {
+    padding: 20px;
+
+    height: 100px;
+    background-color: white;
+    width: 100%;
+}
+.tour-inner__title {
+    font-size: 20px;
+    font-weight: 700;
+}
+.tour-inner__tags {
+    color: grey;
+}
+.tour-inner__title:hover,
+.tour-inner__tags:hover {
+    color: #fd7741;
+}
+.tour-coast {
+    display: block;
+    width: 60px;
+    color: white;
+    background-color: #fd7741;
+    padding: 5px;
+}
+/*tours*/
